@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: #3572ef;
+}
+:root {
+  /* Colors */
+  --color-white: #fff;
+  --color-royalblue-100: #3572ef ;
+}

@@ -1,0 +1,21 @@
+.one{
+    
+    z-index: 2;
+    position: absolute;
+    top:350px;
+    margin:10px;
+    padding:10px;
+    height:100px;
+    width:100px;
+    left:12px;
+}
+.two{
+    display:flex;
+   margin:-10px;
+    left:10px;
+    position:relative;
+}
+
+.three{
+    display:flex;
+}

@@ -1,0 +1,130 @@
+.Box{
+    width: 100%;
+    position: relative;
+    background-color: #3572ef;
+    height: 155.134vh;
+    overflow: hidden;
+    text-align: left;
+    
+    color: #fff;
+    font-family: Inter;
+}
+
+.order{
+    position: absolute;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  left: 38%;
+  top: 35px;
+  z-index: 6;
+  font-weight:500;
+  border-radius: 1px;
+}
+
+.p{
+    position: relative;
+    left:2%;
+    font-size: 18px;
+    top:100px;
+   
+    font-weight: 200;
+   
+
+}
+.stack{
+   display: flex;
+    left:350px;
+    position: absolute;
+   margin: 10px; /* Example margin for spacing between items */
+   padding: 10px;
+   align-items: center;
+   top:140px;
+   border: 1px solid white;
+   padding: 20px;
+   border-radius: 5px;
+   width: 600px; /* Adjust the width as needed */
+   height: 350px;
+  /* Distribute items evenly along the main axis */
+  
+    /* Prevents content from overflowing */
+}
+
+
+
+.stack2{
+    position:absolute;
+    left:400px;
+    top:-20px;
+    z-index:"7";
+    color:black;
+    left:450px;
+}
+
+.stack1{
+    position:absolute;
+    top:-20px;
+    z-index:"7";
+    color:black;
+    left:50px;
+}
+
+
+
+.button{
+    position: absolute;
+    left:1200px;
+    top:10px;
+    border:none;
+    border-radius: 2px;
+    width:100px;
+    height:30px;
+}
+
+.button:hover{
+    filter:  contrast(1.2) brightness(1) saturate(1.2)  sepia(0.1); /* Additional tint on hover */
+    transform: scale(1.05);
+}
+
+
+
+.Box {
+    font-size: 22px;
+    padding: 20px;
+  }
+  
+  .order {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .passenger-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stack1, .stack2 {
+    flex: 1;
+  }
+  
+  .p {
+    margin: 5px 0;
+  }
+  
+  .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #04318E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+  }
+  

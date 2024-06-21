@@ -1,0 +1,137 @@
+
+  .fly {
+    position: absolute;
+    top: 0.663vh;
+    left: 30vw;
+    font-weight: 600;
+    color: #3572ef;
+    filter: blur(0.1vw);
+    text-shadow: 0.0585vw 0 0#fff, 0 0.0585vw 0#fff, -0.0585vw 0 0#fff, 0-0.0585vw 0#fff;
+    transform: rotate(-0.8deg);
+    transform-origin: 0 0;
+    font-size:12vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .high1 {
+    position: absolute;
+    top: 27vh;
+    left: 42vw;
+    font-weight: 600;
+    color: #3572ef;
+    filter: blur(0.1vw);
+    text-shadow: 0.0585vw 0 0#fff, 0 0.0585vw 0#fff, -0.0585vw 0 0#fff, 0-0.0585vw 0#fff;
+    transform: rotate(-0.8deg);
+    transform-origin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12vw;
+
+  }
+  .flying{
+    position: absolute;
+  top: -40.334vh;
+  left: 25vw;
+  width: 47vw;
+  height: 166vh;
+  object-fit: contain;
+  z-index: 2;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+   
+  } 
+  .are-you-in {
+    position: absolute;
+    top: 76vh;
+    left: 46.5vw;
+    font-size: 1.4vw;
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ededed;
+  }
+  
+  .macbook-child {
+    position: absolute;
+    top: 83vh;
+    left: 35vw;
+    border-radius: 1vw;
+    background-color: #fff;
+    width: 30vw;
+    height: 8.5vh;
+    /*filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));*/
+    z-index: 2;
+  }
+
+  .macbook-child:hover{
+    filter:  contrast(1.2) brightness(1) saturate(1.2) drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5)) sepia(0.1); /* Additional tint on hover */
+    transform: scale(1.05);
+
+ }
+
+  .macbook {
+    width: 100%;
+    position: relative;
+    background-color: #3572ef;
+    height: 155.134vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: 250px;
+    color: #fff;
+    font-family: Inter;
+   
+    
+  }
+ 
+.Get{
+    color:black;
+    position: absolute;
+    top: 81vh;
+    left: 46vw;
+    font-size: 1.8vw;
+    font-weight: 8;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+    
+}
+  
+.text {
+    position: absolute;
+    top: 65vh;
+    left: 30.5vw;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    z-index:2;
+  }
+  
+  
+  
+ 
+
+
+
+
+
+.image{
+    width: 40vw;
+  height: 50vh;
+    position: absolute;
+    top: 7vh;
+    left: 27vw;
+}
+
+
+
+
+.Shadow{
+    position: absolute;
+    top: -121px;
+    left: -256px;
+    width: 985.1px;
+    height: 1200.6px;
+    object-fit: contain;
+    z-index: 1;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+
